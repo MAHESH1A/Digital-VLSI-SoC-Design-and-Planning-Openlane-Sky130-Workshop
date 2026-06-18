@@ -18,11 +18,10 @@ Key terms to understand:
 | **Macros** | Reusable digital RTL blocks (GPIO bank, SPI, RISC-V SoC core) |
 
 <div align="center">
-<img src="images/die_pads_core.png" width="800">
+<img src="Day1/screenshots/die_pads_core.png" width="800">
 </div>
-
 <p align="center">
-<b>Figure 1:</b> Maze Routing using Lee's Algorithm
+<b>Figure 1:</b> QFN-48 Package showing Die, Pads and Core
 </p>
 
 > The image above shows a RISC-V SoC die with GPIO pads on all four sides, a central core area (shown empty/black), and the distinction between Die, PADS and Core labelled clearly.
