@@ -26,7 +26,12 @@ Key terms to understand:
 
 > The image above shows a RISC-V SoC die with GPIO pads on all four sides, a central core area (shown empty/black), and the distinction between Die, PADS and Core labelled clearly.
 
-![Macros and Foundry IPs](./Day1/screenshots/macros_foundry_ips.png)
+<div align="center">
+<img src="images/macros_foundry_ips.png" width="800">
+</div>
+<p align="center">
+<b>Figure 2:</b> Inside the Core — Macros (GPIO bank, SPI, RISC-V SoC) and Foundry IPs (PLL, ADC, DAC, SRAM)
+</p>
 
 > Inside the core: the RISC-V SoC (blue), GPIO bank, SRAM (Foundry IP), PLL, ADC/DAC blocks — Macros are pure digital; Foundry IPs require foundry-specific knowledge to build.
 
@@ -47,7 +52,12 @@ The hardware that physically executes these binary instructions is described in 
 
 ### L3 - From Software Applications to Hardware
 
-![Software to Hardware](./Day1/screenshots/software_to_hardware.png)
+<div align="center">
+<img src="images/software_to_hardware.png" width="800">
+</div>
+<p align="center">
+<b>Figure 4:</b> From Application Software to Hardware — OS, Compiler, Assembler, ISA and Silicon
+</p>
 
 The full stack from app to chip:
 
@@ -56,7 +66,12 @@ The full stack from app to chip:
 - An **Assembler** converts those instructions into **binary machine code**
 - That binary drives the actual **Hardware** (the chip layout)
 
-![RISC-V to RTL to Layout](./Day1/screenshots/riscv_rtl_layout.png)
+<div align="center">
+<img src="images/riscv_rtl_layout.png" width="800">
+</div>
+<p align="center">
+<b>Figure 3:</b> RISC-V Assembly → picorv32 RTL Implementation → Physical Layout (qflow)
+</p>
 
 > Three layers shown: RISC-V ISA (assembly), RTL implementation (`picorv32`), and the resulting physical layout (qflow view) — all three represent the same design at different levels of abstraction.
 
@@ -66,7 +81,12 @@ The full stack from app to chip:
 
 ### L1 - Introduction to All Components of Open-Source Digital ASIC Design
 
-![Open Source ASIC](./Day1/screenshots/open_source_asic.png)
+<div align="center">
+<img src="images/open_source_asic.png" width="800">
+</div>
+<p align="center">
+<b>Figure 6:</b> Open Source Digital ASIC Design — EDA Tools + RTL Designs + PDK Data
+</p>
 
 A complete open-source ASIC design needs three things:
 
@@ -82,7 +102,12 @@ The **SKY130 PDK** (released by Google + SkyWater in 2020) was a landmark moment
 
 ### L2 - Simplified RTL2GDS Flow
 
-![RTL to GDSII Flow](./Day1/screenshots/rtl2gds_flow.png)
+<div align="center">
+<img src="images/rtl2gds_flow.png" width="800">
+</div>
+<p align="center">
+<b>Figure 7:</b> Simplified RTL to GDSII Flow — Synth → FP+PP → Place → CTS → Route → Sign Off
+</p>
 
 The RTL-to-GDSII flow has 6 major stages:
 
@@ -114,7 +139,12 @@ RTL  →  Synthesis  →  Floorplan + Power Planning  →  Placement  →  CTS  
 
 ### L4 - Introduction to OpenLANE Detailed ASIC Design Flow
 
-![OpenLANE ASIC Flow](./Day1/screenshots/openlane_asic_flow.png)
+<div align="center">
+<img src="images/open_source_asic.png" width="800">
+</div>
+<p align="center">
+<b>Figure 6:</b> Open Source Digital ASIC Design — EDA Tools + RTL Designs + PDK Data
+</p>
 
 The detailed OpenLANE flow:
 
