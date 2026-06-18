@@ -18,7 +18,7 @@ Key terms to understand:
 | **Macros** | Reusable digital RTL blocks (GPIO bank, SPI, RISC-V SoC core) |
 
 <div align="center">
-<img src="Day1/screenshots/die_pads_core.png" width="800">
+<img src="Day1/images/die_pads_core.png" width="800">
 </div>
 <p align="center">
 <b>Figure 1:</b> QFN-48 Package showing Die, Pads and Core
