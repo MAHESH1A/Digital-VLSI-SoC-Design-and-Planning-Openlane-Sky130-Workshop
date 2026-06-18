@@ -17,7 +17,13 @@ Key terms to understand:
 | **Foundry IPs** | Pre-designed analog/mixed-signal blocks from the foundry (PLL, ADC, DAC, SRAM) |
 | **Macros** | Reusable digital RTL blocks (GPIO bank, SPI, RISC-V SoC core) |
 
-![Die, Pads and Core](./Day1/screenshots/die_pads_core.png)
+<div align="center">
+<img src="images/die_pads_core.png" width="800">
+</div>
+
+<p align="center">
+<b>Figure 1:</b> Maze Routing using Lee's Algorithm
+</p>
 
 > The image above shows a RISC-V SoC die with GPIO pads on all four sides, a central core area (shown empty/black), and the distinction between Die, PADS and Core labelled clearly.
 
