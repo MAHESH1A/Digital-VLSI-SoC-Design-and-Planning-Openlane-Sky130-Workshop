@@ -17,7 +17,35 @@ This workshop is a 5-day paid cloud-based program where we synthesize, floorplan
 
 1. [Lecture access](https://vsdiat.vlsisystemdesign.com/sign-in)
 2. [Lab access](https://www.vlsisystemdesign.com/digital-vlsi-soc-design-and-planning/)
+## Overview
 
+This repository documents my learning journey through the **5-Day Digital VLSI SoC Design and Planning** workshop organized by **VSD (VLSI System Design)**. The workshop covers the complete RTL-to-GDSII flow using the open-source EDA tool **OpenLANE** with **SkyWater 130nm PDK (Sky130)**.
+
+The workshop provides hands-on experience with:
+- Open-source VLSI design tools
+- SkyWater 130nm Process Design Kit (PDK)
+- Full chip design flow from RTL to GDSII
+- Standard cell characterization
+- Physical design and timing closure
+
+### Design Used: `picorv32a` (RISC-V based SoC)
+
+---
+
+## Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| **OpenLANE** | RTL-to-GDSII flow automation |
+| **Magic** | Layout editor and DRC/LVS |
+| **ngspice** | SPICE simulation |
+| **OpenSTA** | Static Timing Analysis |
+| **TritonRoute** | Detailed router |
+| **Yosys** | RTL synthesis |
+| **OpenROAD** | Placement, CTS, optimization |
+| **Sky130 PDK** | SkyWater 130nm Process Design Kit |
+
+---
 ## Course Agenda
 
 In this 5-day workshop we cover:
@@ -30,6 +58,4 @@ In this 5-day workshop we cover:
 
 To conclude the workshop, we learnt how to use, plan, floorplan, place, synthesize clock trees, route and sign-off a complete digital SoC using **open-source RTL-to-GDSII flow**.
 
-### How does the Digital VLSI SoC Design and Planning workshop align with present skills? [Future plan](./Add-Ons/Align-soc-design-with-myskills.md)
 
-Credits — [VSD and Team](https://www.vlsisystemdesign.com/)
