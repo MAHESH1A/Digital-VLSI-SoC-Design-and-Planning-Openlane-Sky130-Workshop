@@ -140,7 +140,7 @@ RTL  →  Synthesis  →  Floorplan + Power Planning  →  Placement  →  CTS  
 ### L4 - Introduction to OpenLANE Detailed ASIC Design Flow
 
 <div align="center">
-<img src="images/open_source_asic.png" width="800">
+<img src="images/openlane_asic_flow.png" width="800">
 </div>
 <p align="center">
 <b>Figure 6:</b> Open Source Digital ASIC Design — EDA Tools + RTL Designs + PDK Data
