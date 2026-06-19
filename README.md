@@ -68,8 +68,7 @@ Digital-VLSI-SoC-Design-and-Planning/
 ├── Day3-Magic-Layout-ngspice-Characterization.md
 ├── Day4-PreLayout-Timing-Analysis-ClockTree.md
 ├── Day5-RTL2GDS-TritonRoute-OpenSTA.md
-└── images/
-    └── (all screenshots referenced across Day 1–5)
+
 ```
 
 ## Tools and PDK Used
@@ -88,6 +87,3 @@ Digital-VLSI-SoC-Design-and-Planning/
 
 **Design used:** `picorv32a` — a RISC-V based SoC core
 
-### How does the Digital VLSI SoC Design and Planning workshop align with present skills? [Future plan](./Add-Ons/Align-soc-design-with-myskills.md)
-
-Credits — [VSD and Team](https://www.vlsisystemdesign.com/)
