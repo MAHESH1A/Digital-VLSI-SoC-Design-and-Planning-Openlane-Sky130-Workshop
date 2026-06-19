@@ -191,11 +191,7 @@ The detailed OpenLANE flow:
 ---
 
 ### L2 - Design Preparation Step
-<div align="center">
-<img src="images/1.png" width="800">
-</div>
-<p align="center">
-</p>
+
 ```bash
 # Go to OpenLANE working directory
 cd ~/Desktop/work/tools/openlane_working_dir/openlane
