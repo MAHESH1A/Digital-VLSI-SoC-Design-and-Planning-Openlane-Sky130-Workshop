@@ -461,6 +461,11 @@ read_liberty -min ./src/sky130_fd_sc_hd__fast.lib    # for hold check
 # Ensure CTS-modified netlist (with buffers) is loaded, not pre-CTS netlist
 read_verilog ./results/synthesis/picorv32a.synthesis_cts.v
 ```
+<div align="center">
+<img src="images/6.png" width="800">
+</div>
+<p align="center">
+</p>
 
 > Always use the **CTS netlist** (`*_cts.v`) for post-CTS timing — using the pre-CTS netlist gives misleading ideal-clock results.
 
@@ -477,6 +482,11 @@ run_cts
 openroad post_sta.conf
 report_checks -path_delay min_max
 ```
+<div align="center">
+<img src="images/7.png" width="800">
+</div>
+<p align="center">
+</p>
 
 **Observation:**
 
