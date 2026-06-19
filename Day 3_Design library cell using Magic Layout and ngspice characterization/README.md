@@ -141,6 +141,7 @@ cp ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130
 # Open the inverter layout in Magic
 magic -T sky130A.tech sky130_inv.mag &
 ```
+
 <div align="center">
 <img src="8.png" width="800">
 </div>
@@ -148,11 +149,9 @@ magic -T sky130A.tech sky130_inv.mag &
 </p>
 
 ---
-
 ## SKY130_D3_SK2 - Inception of Layout – CMOS Fabrication Process
 
 The **16-mask CMOS process** is used to fabricate standard cells. Understanding this helps interpret Magic layouts correctly.
-
 ---
 
 ### L1 - Create Active Regions
@@ -333,6 +332,7 @@ extract all
 ext2spice cthresh 0 rthresh 0
 ext2spice
 ```
+
 <div align="center">
 <img src="9.png" width="800">
 </div>
