@@ -161,12 +161,13 @@ designs/picorv32a/runs/<tag>/logs/floorplan/
 designs/picorv32a/runs/<tag>/reports/floorplan/
 └── core_area.rpt                  ← Core area report
 ```
+
 <div align="center">
 <img src="images/4.png" width="800">
 </div>
 <p align="center">
 </p>
-```
+
 **Reading the DEF file to find die area:**
 ```
 # Inside .def file
@@ -176,9 +177,8 @@ DIEAREA ( 0 0 ) ( 660685 671405 ) ;
 # Die Height = 671405 / 1000 = 671.405 µm
 ```
 
----
-
 ### L8 - Review Floorplan Layout in Magic
+
 <div align="center">
 <img src="images/6.png" width="800">
 </div>
@@ -285,7 +285,7 @@ magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/
 <p align="center">
 </p>
 
-> After placement, all standard cells are snapped to rows, no overlaps exist, and timing is improved compared to initial placement.
+After placement, all standard cells are snapped to rows, no overlaps exist, and timing is improved compared to initial placement.
 
 ---
 
