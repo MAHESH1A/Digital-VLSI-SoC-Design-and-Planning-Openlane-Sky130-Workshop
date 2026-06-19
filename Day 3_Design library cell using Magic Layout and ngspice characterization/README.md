@@ -350,8 +350,8 @@ Edit the extracted `sky130_inv.spice` to add:
 .include ./libs/nshort.lib
 
 * Instantiate inverter subcircuit
-X0 out in VDD VDD sky130_fd_pr__pfet_01v8 ad=... pd=... as=... ps=... w=37 l=23
-X1 out in GND GND sky130_fd_pr__nfet_01v8 ad=... pd=... as=... ps=... w=35 l=23
+X0 out in VDD VDD nshort_model.0 ad=1.44n pd=0.152m as=1.37n ps=0.148m w=35 l=23
+X1 out in GND GND pshort_model.0 ad=1.44n pd=0.152m as=1.52n ps=0.156m w=37 l=23
 
 * Parasitic caps (auto-extracted)
 C0 out 0 0.279f
