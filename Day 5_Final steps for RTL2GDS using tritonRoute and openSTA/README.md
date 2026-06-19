@@ -257,6 +257,6 @@ By the end of Day 5 we understood:
 
 ---
 
-> Previous: [Day 4 - Pre-Layout Timing Analysis and Importance of Good Clock Tree](./Day4-PreLayout-Timing-Analysis-ClockTree.md)
+> Previous: [Day 4 - Pre-Layout Timing Analysis and Importance of Good Clock Tree]
 
 This concludes the **5-Day Digital VLSI SoC Design and Planning** workshop — from RTL synthesis to a fully routed, DRC-clean, sign-off ready GDSII layout using completely open-source EDA tools and the Sky130 PDK.
