@@ -131,6 +131,7 @@ run_floorplan
 </div>
 <p align="center">
 </p>
+
 Key floorplan configuration variables (set in `config.tcl` or `floorplan.tcl`):
 
 | Variable | Default | Description |
@@ -165,6 +166,7 @@ designs/picorv32a/runs/<tag>/reports/floorplan/
 </div>
 <p align="center">
 </p>
+```
 **Reading the DEF file to find die area:**
 ```
 # Inside .def file
@@ -189,6 +191,7 @@ magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/
 </div>
 <p align="center">
 </p>
+```
 **Useful Magic commands:**
 ```
 Press S         → Select an object
@@ -282,6 +285,7 @@ magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/
 </div>
 <p align="center">
 </p>
+```
 > After placement, all standard cells are snapped to rows, no overlaps exist, and timing is improved compared to initial placement.
 
 ---
