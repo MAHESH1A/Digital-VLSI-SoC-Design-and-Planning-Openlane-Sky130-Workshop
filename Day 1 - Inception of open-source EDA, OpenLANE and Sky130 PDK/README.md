@@ -282,4 +282,4 @@ By the end of Day 1 we understood:
 
 ---
 
-> Next: [Day 2 - Good Floorplan vs Bad Floorplan and Introduction to Library Cells](cd ../Day 2_Good floorplan vs bad floorplan and introduction to library cells/README.md)
+> Next: [Day 2 - Good Floorplan vs Bad Floorplan and Introduction to Library Cells]
