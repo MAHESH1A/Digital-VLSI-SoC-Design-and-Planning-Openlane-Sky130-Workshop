@@ -319,6 +319,13 @@ run_cts
 ```
 
 Output files:
+
+<div align="center">
+<img src="images/3.png" width="800">
+</div>
+<p align="center">
+</p>
+
 ```
 designs/picorv32a/runs/<tag>/results/cts/
 └── picorv32a.cts.def      ← DEF with clock tree buffers inserted
