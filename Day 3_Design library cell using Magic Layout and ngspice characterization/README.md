@@ -143,7 +143,7 @@ magic -T sky130A.tech sky130_inv.mag &
 ```
 
 <div align="center">
-<img src="8.png" width="800">
+<img src="images/8.png" width="800">
 </div>
 <p align="center">
 </p>
@@ -334,7 +334,7 @@ ext2spice
 ```
 
 <div align="center">
-<img src="9.png" width="800">
+<img src="images/9.png" width="800">
 </div>
 <p align="center">
 </p>
