@@ -502,6 +502,6 @@ By the end of Day 4 we understood:
 
 ---
 
-> Previous: [Day 3 - Design Library Cell using Magic Layout and ngspice Characterization](./Day3-Magic-Layout-ngspice-Characterization.md)
+> Previous: [Day 3 - Design Library Cell using Magic Layout and ngspice Characterization]
 
-> Next: [Day 5 - Final Steps for RTL2GDS using TritonRoute and OpenSTA](./Day5-RTL2GDS-TritonRoute-OpenSTA.md)
+> Next: [Day 5 - Final Steps for RTL2GDS using TritonRoute and OpenSTA]
