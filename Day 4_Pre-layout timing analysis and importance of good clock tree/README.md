@@ -17,6 +17,12 @@ met1  X   0.17   0.34
 met1  Y   0.17   0.34
 ```
 
+<div align="center">
+<img src="images/1.png" width="800">
+</div>
+<p align="center">
+</p>
+
 Tracks define the exact horizontal/vertical grid lines where routing wires are allowed to be placed for each metal layer — required by the router (TritonRoute/FastRoute).
 
 ---
@@ -37,6 +43,12 @@ property LEFclass BLOCK    # or LEFview, define as a hard macro
 lef write sky130_vsdinv.lef
 ```
 
+<div align="center">
+<img src="images/2.png" width="800">
+</div>
+<p align="center">
+</p>
+
 The generated `.lef` contains: cell dimensions, pin locations, pin direction (input/output), and metal layer used for each pin — required so OpenLANE/placer can treat the custom cell like any standard cell.
 
 ---
@@ -48,6 +60,12 @@ The generated `.lef` contains: cell dimensions, pin locations, pin direction (in
 cp sky130_vsdinv.lef ~/.../designs/picorv32a/src/
 cp libs/sky130_fd_sc_hd__* ~/.../designs/picorv32a/src/
 ```
+
+<div align="center">
+<img src="images/3.png" width="800">
+</div>
+<p align="center">
+</p>
 
 Update `config.tcl`:
 ```tcl
