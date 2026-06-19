@@ -141,6 +141,11 @@ cp ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130
 # Open the inverter layout in Magic
 magic -T sky130A.tech sky130_inv.mag &
 ```
+<div align="center">
+<img src="8.png" width="800">
+</div>
+<p align="center">
+</p>
 
 ---
 
@@ -328,6 +333,11 @@ extract all
 ext2spice cthresh 0 rthresh 0
 ext2spice
 ```
+<div align="center">
+<img src="9.png" width="800">
+</div>
+<p align="center">
+</p>
 
 This generates `sky130_inv.spice` containing:
 - Transistor models with W/L
@@ -555,6 +565,6 @@ By the end of Day 3 we understood:
 
 ---
 
-> Previous: [Day 2 - Good Floorplan vs Bad Floorplan and Introduction to Library Cells](./Day2-Floorplan-and-Introduction-to-LibraryCells.md)
+> Previous: [Day 2 - Good Floorplan vs Bad Floorplan and Introduction to Library Cells]
 
-> Next: [Day 4 - Pre-Layout Timing Analysis and Importance of Good Clock Tree](./Day4-PreLayout-Timing-Analysis-ClockTree.md)
+> Next: [Day 4 - Pre-Layout Timing Analysis and Importance of Good Clock Tree]
