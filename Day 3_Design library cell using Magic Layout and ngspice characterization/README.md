@@ -171,12 +171,11 @@ Steps:
 ---
 
 ### L2 - Formation of N-well and P-well
-
 <div align="center">
-<img src="images/source_drain_formation.png" width="800">
+<img src="images/nwell_pwell_formation.png" width="800">
 </div>
 <p align="center">
-<b>Figure 6:</b> Source and Drain formation — N+ implant (NMOS) and P+ implant (PMOS)
+<b>Figure 3:</b> N-well and P-well formation on P-substrate using ion implantation
 </p>
 
 - **Mask 2** → define P-well region → implant **Boron** (p-type dopant) at ~200 keV
@@ -231,12 +230,11 @@ Steps:
 
 ### L5 - Source–Drain Formation
 <div align="center">
-<img src="images/nwell_pwell_formation.png" width="800">
+<img src="images/source_drain_formation.png" width="800">
 </div>
 <p align="center">
-<b>Figure 3:</b> N-well and P-well formation on P-substrate using ion implantation
+<b>Figure 6:</b> Source and Drain formation — N+ implant (NMOS) and P+ implant (PMOS)
 </p>
-
 
 - Deposit thin screen oxide to prevent channeling during implant
 - **Mask 9** → N+ implant (Arsenic, ~75 keV) for NMOS source and drain
