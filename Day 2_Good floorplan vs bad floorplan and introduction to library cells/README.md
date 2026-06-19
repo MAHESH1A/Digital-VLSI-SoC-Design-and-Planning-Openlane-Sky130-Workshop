@@ -179,18 +179,17 @@ DIEAREA ( 0 0 ) ( 660685 671405 ) ;
 ---
 
 ### L8 - Review Floorplan Layout in Magic
+<div align="center">
+<img src="images/6.png" width="800">
+</div>
+<p align="center">
+</p>
 
 ```bash
 # Open floorplan DEF in Magic
 magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech \
   lef read ../../tmp/merged.lef \
   def read picorv32a.floorplan.def &
-```
-<div align="center">
-<img src="images/6.png" width="800">
-</div>
-<p align="center">
-</p>
 ```
 **Useful Magic commands:**
 ```
@@ -285,7 +284,7 @@ magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/
 </div>
 <p align="center">
 </p>
-```
+
 > After placement, all standard cells are snapped to rows, no overlaps exist, and timing is improved compared to initial placement.
 
 ---
