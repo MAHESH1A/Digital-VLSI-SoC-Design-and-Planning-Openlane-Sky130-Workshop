@@ -126,7 +126,11 @@ Examples: Block a, Block b, Block c (memory macros, analog IPs, complex logic bl
 # After synthesis, run floorplan
 run_floorplan
 ```
-
+<div align="center">
+<img src="images/3.png" width="800">
+</div>
+<p align="center">
+</p>
 Key floorplan configuration variables (set in `config.tcl` or `floorplan.tcl`):
 
 | Variable | Default | Description |
@@ -156,7 +160,11 @@ designs/picorv32a/runs/<tag>/logs/floorplan/
 designs/picorv32a/runs/<tag>/reports/floorplan/
 └── core_area.rpt                  ← Core area report
 ```
-
+<div align="center">
+<img src="images/4.png" width="800">
+</div>
+<p align="center">
+</p>
 **Reading the DEF file to find die area:**
 ```
 # Inside .def file
@@ -176,7 +184,11 @@ magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/
   lef read ../../tmp/merged.lef \
   def read picorv32a.floorplan.def &
 ```
-
+<div align="center">
+<img src="images/6.png" width="800">
+</div>
+<p align="center">
+</p>
 **Useful Magic commands:**
 ```
 Press S         → Select an object
@@ -265,7 +277,11 @@ magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/
   lef read ../../tmp/merged.lef \
   def read picorv32a.placement.def &
 ```
-
+<div align="center">
+<img src="images/7.png" width="800">
+</div>
+<p align="center">
+</p>
 > After placement, all standard cells are snapped to rows, no overlaps exist, and timing is improved compared to initial placement.
 
 ---
