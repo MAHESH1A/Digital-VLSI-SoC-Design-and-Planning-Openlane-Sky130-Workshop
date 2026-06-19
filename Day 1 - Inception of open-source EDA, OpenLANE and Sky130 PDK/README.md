@@ -242,15 +242,15 @@ OpenLANE source and documentation:
 ### L5 - Steps to Characterize Synthesis Results
 
 After synthesis, check the statistics report at:
+
+```
+designs/picorv32a/runs/<tag>/reports/synthesis/
+```
 <div align="center">
 <img src="images/2.png" width="800">
 </div>
 <p align="center">
 </p>
-```
-designs/picorv32a/runs/<tag>/reports/synthesis/
-```
-
 **Key metric — Flop Ratio:**
 
 ```
