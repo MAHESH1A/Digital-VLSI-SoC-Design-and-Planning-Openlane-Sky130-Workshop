@@ -422,6 +422,6 @@ By the end of Day 2 we understood:
 
 ---
 
-> Previous: [Day 1 - Inception of Open-Source EDA, OpenLANE and Sky130 PDK](./Day1-Inception-of-OpenSource-EDA-OpenLANE-Sky130PDK/README.md)
+> Previous: [Day 1 - Inception of Open-Source EDA, OpenLANE and Sky130 PDK]
 
-> Next: [Day 3 - Design Library Cell using Magic Layout and ngspice Characterization](./Day3-Magic-Layout-ngspice-Characterization/README.md)
+> Next: [Day 3 - Design Library Cell using Magic Layout and ngspice Characterization]
